@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+#dev: olivier Morel
+# Chuck Norris writes code that optimizes itself.
+
 require 'socket'
 
 class Irc_Bot
