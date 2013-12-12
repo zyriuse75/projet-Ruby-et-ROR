@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
+
 ############################
 #script for encode video   #
 #--------------------------#
+## Chuck Norris writes code that optimizes itself.
 
-# not okai for the moment  
-# he doesn't execute compress??
 
 require "fileutils"
 
@@ -33,9 +33,6 @@ class EncodeVideo
       run "ffmpeg -i '#{input}'-y -ab 56 -ar 44100 -b 200k -r 15 -f flv '#{output}'" # -b 1024k -s 780x480  -ar 44100  -r 25 -acodec mp3 -ab 64 -f flv
      end
 
-#     compress "ogg" do |input, output|
-#
-#      run ""
 
   end
 
