@@ -42,7 +42,7 @@ dry_run = opts [/d/i] != nil
 
  path = "/data/deploy_tmp/"
  time_now = Time.now
- getime= (ddays*24*60*60).to_i
+ getime= (ddays*24*60*60)
  time= time_now - getime
  
   to_delete=[]
