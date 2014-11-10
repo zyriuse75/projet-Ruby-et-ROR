@@ -31,7 +31,7 @@ Dir.glob('configuration_*').each do |filename|
 		#( configs[filename][:dbname] ||= [] ) << value.strip.gsub("';", "").gsub("'","")   # Params with key 
 	 end 
 	 
-	CSV.open("/tmp/data.csv", "wb", Options = {quote_char: "\0", write_headers: true, headers:["file_conf","uid","url","dbname"]}) do |csv| 
+	CSV.open("/tmp/data.csv", "wb", Options = {quote_char: "\0", write_headers: true, headers:["file_conf","uid","url","xxxx"]}) do |csv| 
 	configs.each { |input| column_header = nil; csv << input} 
 	end
 
