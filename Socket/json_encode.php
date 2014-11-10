@@ -1,7 +1,7 @@
 <?php
 
 
- $licence_files = glob("/data/bluekiwi/bkweb/application/config/licence*");
+ $licence_files = glob("/$PATH/licence*");
 
 foreach ($licence_files as $file_name) { 
   print "processing $file_name...\n";
