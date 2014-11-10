@@ -2,7 +2,7 @@ require 'fileutils'
 require 'csv'
 
 
-FileUtils.cd('/data/bluekiwi/bkweb/application/config/')
+FileUtils.cd('/$PATH')
 configs = {}
 Dir.glob('configuration_*').each do |filename|
  configs[filename]= Hash.new
@@ -24,8 +24,8 @@ Dir.glob('configuration_*').each do |filename|
  
          end 
 	
-	 if line.include? 'dbname'
-	     next unless line.match(/(?=dbname).*?[\'\"].*?[\'\"](.*?)[\'\"]/)
+	 if line.include? 'xxx'
+	     next unless line.match(/(?=xxx).*?[\'\"].*?[\'\"](.*?)[\'\"]/)
                 field, value = line.split("=",2);
 	 	( configs[filename] ||= [] ) << value.strip.gsub("';", "").gsub("'","")
 		#( configs[filename][:dbname] ||= [] ) << value.strip.gsub("';", "").gsub("'","")   # Params with key 
