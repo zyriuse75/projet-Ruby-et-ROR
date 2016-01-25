@@ -1,6 +1,5 @@
 #!/bin/sh
-# blueKiwi debian package builder
-# author: FDV <fdv@bluekiwi-software.com>
+# debian package builder
 # Package: 
 ### 
 
