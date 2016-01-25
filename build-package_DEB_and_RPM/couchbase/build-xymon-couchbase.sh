@@ -1,5 +1,5 @@
 #!/bin/sh
-# blueKiwi debian package builder
+# debian package builder
 # Package:  bk-xymon-beanstalk
 ### 
 
