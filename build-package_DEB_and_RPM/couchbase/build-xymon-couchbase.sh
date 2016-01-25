@@ -1,6 +1,5 @@
 #!/bin/sh
 # blueKiwi debian package builder
-# author: OMR <omr@bluekiwi-software.com>
 # Package:  bk-xymon-beanstalk
 ### 
 
