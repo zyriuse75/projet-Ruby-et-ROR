@@ -26,7 +26,7 @@ class BackupMysql < StandardError
            @uid_instance = uid_instance
 	   @user ='root'
 	   @res_uid_instance= @uid_instance
-	   @host ='192.168.160.44'
+	   @host ='192.168.0.0'
 #	   @pwd =""
            @mysl_dump ="/usr/bin/mysqldump"
 	   @mysql_user = "USER-MYSQL"
