@@ -1,6 +1,6 @@
 # for use this module  
-# with file : Mail::SendMail.new("omr@bluekiwi-software.com", "/tmp/data.csv", "export_instance")
-# without file: Mail::SendMail.new("omr@bluekiwi-software.com", "export_instance")
+# with file : Mail::SendMail.new("omr@xxxxxxx", "/tmp/data.csv", "export_instance")
+# without file: Mail::SendMail.new("omr@xxxxxx", "export_instance")
 
 
 module Mail
