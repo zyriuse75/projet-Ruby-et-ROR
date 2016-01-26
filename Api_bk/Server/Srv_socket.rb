@@ -28,7 +28,7 @@ include Logging
     logger.info( "SRV => #{msg}".colorize("cyan", :style =>"strikethrough"))
 	         hash_converter "#{msg}" 
 	   
-	       connection.write 'got something--closing now--here is your response message from the server'
+	       connection.write 'got something--closing  from the server'
 	       connection.close
  	       }
         end	
@@ -47,18 +47,6 @@ include Logging
 	 	end
         end
 
-############################################################################################
-#	
-# def: send 
-#
-#Invokes the method identified by symbol, passing it any arguments specified. You can use __send__ if the name send clashes with an existing method in obj.
-#
-# So then in the loop, it does this:
-#self.send "name=", "John Smith"
-#
-#which is equivalent to
-#self.name = "John Smith"
-#############################################################################################
 
 #http://apidock.com/rails/v4.0.2/String/indent 
 
@@ -83,7 +71,7 @@ include Logging
 
 	def actualize
             php_command =  system("which php")
-	      json_encode = system('/usr/bin/php /home/zyriuse/documents/Ruby-On-Rails/script/Api_BK/Socket/json_encode.php')
+	      json_encode = system('/usr/bin/php /home/xxxxx/Api_BK/Socket/json_encode.php')
                puts "json_encode: #{json_encode}"
 		logger.info("SRV => json_encode: #{json_encode}".colorize("cyan", :style =>"strikethrough"))
 	end 
@@ -94,7 +82,7 @@ include Logging
 	def update_externalUser(arg)
 
       logger.info("SRV =>  update_externalUser: #{arg[0]}".colorize("cyan", :style =>"strikethrough"))	
-	  FileUtils.cd("/data/xxx/bkweb/application/config")
+	  FileUtils.cd("/data/xxx/xxxxconfig")
 	        a = Array.new
 	        a = File.readlines("xxx.xxx.net.php")
 	        a.delete_if {|f| f.include? "users_external"}
