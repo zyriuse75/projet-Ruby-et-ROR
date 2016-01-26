@@ -1,0 +1,68 @@
+		██╗██████╗ ███████╗███████╗    ██████╗ ███████╗    ██████╗ ███████╗██╗   ██╗
+		██║██╔══██╗██╔════╝██╔════╝    ██╔══██╗██╔════╝    ██╔══██╗██╔════╝██║   ██║
+		██║██║  ██║█████╗  █████╗      ██║  ██║█████╗      ██║  ██║█████╗  ██║   ██║
+		██║██║  ██║██╔══╝  ██╔══╝      ██║  ██║██╔══╝      ██║  ██║██╔══╝  ╚██╗ ██╔╝
+		██║██████╔╝███████╗███████╗    ██████╔╝███████╗    ██████╔╝███████╗ ╚████╔╝ 
+		╚═╝╚═════╝ ╚══════╝╚══════╝    ╚═════╝ ╚══════╝    ╚═════╝ ╚══════╝  ╚═══╝ 	
+											Ainsi Shadow
+
+
+
+--Developper une aplication pour faciliter l'acces aux informations des instances
+ 
+ * interface GTK												
+
+ * l'Api devra fournir &| faire										
+   * l'utilisateur devra sauthentitifier avec son compte LDAP							
+   * lire la liste des instances											
+
+  ** Afficher																
+   * le nom de l'instance																
+   * les instances qui arrives a expirations													
+   * lorsque l'utilisateur selectionne le nom de l'instance afficher les informations suivantes								
+   * la date de fin																	
+   * la date de debut																
+   * le NBR d'utilisateur interne 															
+   * le NBR d'utilisateur externe 															
+   * le NBR de communities																			
+   * les differentes features installées 															
+ 
+ 
+ 
+ 
+
+*---------------------------------------------*
+*  script pour recupere les informations      *
+*---------------------------------------------*
+
+ 
+   * recuperation de la liste des instances en YML								
+   * l'envoyer par mail 
+   * updater la end_date de l'instance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
